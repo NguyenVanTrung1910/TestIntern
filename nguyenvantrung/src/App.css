@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 60%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-spacing: 0;
+  margin-bottom: 30px;
+}
+
+th, td {
+  border: 0.5px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #d2d0d0;
+  text-transform: uppercase;
+}
+
+
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5%;
+}
+
+button:disabled {
+  background-color: #d6d6d6;
+  cursor: not-allowed;
+}
+
+button:not(:disabled):hover {
+  background-color: #0056b3;
+}
+
+span {
+  font-size: 1.2em;
+}
